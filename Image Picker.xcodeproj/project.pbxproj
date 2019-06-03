@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1197D6F422A4F417007ED9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1197D6F322A4F417007ED9DE /* LaunchScreen.storyboard */; };
 		11CAD0D9226B217800E5702D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAD0D8226B217800E5702D /* AppDelegate.swift */; };
 		11CAD0DB226B217800E5702D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAD0DA226B217800E5702D /* ViewController.swift */; };
 		11CAD0DE226B217800E5702D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CAD0DC226B217800E5702D /* Main.storyboard */; };
 		11CAD0E0226B217A00E5702D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CAD0DF226B217A00E5702D /* Assets.xcassets */; };
-		11CAD0E3226B217A00E5702D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CAD0E1226B217A00E5702D /* LaunchScreen.storyboard */; };
 		11CAD0EB226B21B400E5702D /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAD0EA226B21B400E5702D /* PickerController.swift */; };
 		11CAD0EF226B2A5400E5702D /* SHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAD0EE226B2A5400E5702D /* SHViewController.swift */; };
 		11CAD0F7226B2A7800E5702D /* SHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAD0F4226B2A7800E5702D /* SHCollectionViewCell.swift */; };
@@ -22,12 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1197D6F322A4F417007ED9DE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CAD0D5226B217800E5702D /* Image Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CAD0D8226B217800E5702D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CAD0DA226B217800E5702D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11CAD0DD226B217800E5702D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CAD0DF226B217A00E5702D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11CAD0E2226B217A00E5702D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CAD0E4226B217A00E5702D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11CAD0EA226B21B400E5702D /* PickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
 		11CAD0EE226B2A5400E5702D /* SHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				11CAD0EC226B294400E5702D /* Picker Controller */,
 				11CAD0DC226B217800E5702D /* Main.storyboard */,
 				11CAD0DF226B217A00E5702D /* Assets.xcassets */,
-				11CAD0E1226B217A00E5702D /* LaunchScreen.storyboard */,
+				1197D6F322A4F417007ED9DE /* LaunchScreen.storyboard */,
 				11CAD0E4226B217A00E5702D /* Info.plist */,
 			);
 			path = "Image Picker";
@@ -152,8 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11CAD119226B304500E5702D /* ic_close.png in Resources */,
+				1197D6F422A4F417007ED9DE /* LaunchScreen.storyboard in Resources */,
 				11CAD0F9226B2A7800E5702D /* SHViewController.xib in Resources */,
-				11CAD0E3226B217A00E5702D /* LaunchScreen.storyboard in Resources */,
 				11CAD0E0226B217A00E5702D /* Assets.xcassets in Resources */,
 				11CAD118226B304500E5702D /* ic_check.png in Resources */,
 				11CAD0DE226B217800E5702D /* Main.storyboard in Resources */,
@@ -185,14 +185,6 @@
 				11CAD0DD226B217800E5702D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		11CAD0E1226B217A00E5702D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11CAD0E2226B217A00E5702D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
